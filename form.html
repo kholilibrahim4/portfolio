@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   
+    <form class="contact-form top_60" method="POST" action="process.php">
+        <div class="row">
+            <!--Name-->
+            <div class="col-md-6">
+                <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name"> 
+            </div>
+            <!--Email-->
+            <div class="col-md-6">
+                <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+            </div>
+            <div class="col-md-12">
+                <input id="con_sub" name="con_sub" class="form-inp requie" type="text" placeholder="Subject">
+            </div>
+            <div class="col-md-12">
+                <!--Message-->
+                <textarea name="con_message" id="con_message" class="requie" placeholder="How can I help you?" rows="8"></textarea>
+                <button id="con_submit" class="sitebtn top_30" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
