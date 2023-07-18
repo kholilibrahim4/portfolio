@@ -246,7 +246,7 @@ $('.responsive').on('click', function (e) {
     
     // HOME TYPED JS
       $(".element").typed({
-        strings: ["Designer", "Nayan", "Creative"],
+        strings: ["Graphics Designer", "Nayan", "Web Designer",],
         typeSpeed: 10,
         loop:true,
         backDelay: 2000
