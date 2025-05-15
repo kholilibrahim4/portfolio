@@ -22,31 +22,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*
-
-.siteButton {
-    padding: 10px 50px;
-    font-size: 12px;
-    background: none;
-    border: 2px solid;
-    border-radius: 50px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    transition: all ease 0.3s;
-}
-
-.siteButton:hover {
-    background: #000;
-    color: #fff;
-    transition: all ease 0.3s;
-}
-.contactForm .siteButton {
-    margin: auto;
-    margin-top: 30px;
-    display: block;
-
-}
-*/
 .sitebtn {
     border: solid 2px #dfdfdf;
     background: none;
