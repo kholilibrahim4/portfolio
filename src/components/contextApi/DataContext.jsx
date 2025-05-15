@@ -156,7 +156,7 @@ export default function DataContextProviderFun({ children }) {
                     portfolioImg: 'portfolios/img-30.jpg',
                     title: 'Topic',
                     tagline: 'First react template practice',
-                    hrefLink: '/',
+                    hrefLink: 'https://kholilibrahim4.github.io/topic/',
                     workType: 'Work Type: ',
                     // projectBgNumber: `${styles.projectBg6}`
                 },
