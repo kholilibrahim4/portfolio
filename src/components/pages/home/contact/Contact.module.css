@@ -1,0 +1,55 @@
+.sectionTitle.dleft {
+    text-align: left;
+    padding: initial;
+    
+}
+.sectionTitle h2 {
+    margin-bottom: 30px;
+}
+.contactInfo {
+    text-align: center;
+}
+ .contact .contactInfo li {
+    line-height: 25px;
+    font-size: 14.5px;
+    color: #414141;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.contactInfo i {
+        width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 29px;
+    margin-right: 5px;
+}
+
+.contactInfo p {
+    line-height: 20px;
+}
+
+.section-title p {
+    margin-top: 20px;
+}
+.button {
+    text-align: center;
+    padding: 45px 0;
+}
+
+a.site-button {
+    border: 2px solid #000;
+    color: #000;
+}
+
+
+@media screen and (min-width: 992px) {
+    .mdOffset2 {
+        margin-left: 16.66666667%;
+    }
+}

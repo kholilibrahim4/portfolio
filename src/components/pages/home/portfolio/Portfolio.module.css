@@ -1,0 +1,240 @@
+
+.section-title {
+    text-align: center;
+    padding: 90px 0 60px 0;
+}
+
+.section-title h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-title p {
+    line-height: 20px;
+}
+
+.portfolio_filter {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.portfolio_filter ul {
+    margin: auto;
+    display: inline-block;
+}
+
+.portfolio_filter ul li {
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-right: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.single_item {
+    margin-bottom: 30px;
+}
+
+.single_item img {
+    width: 100%;
+    transition: all ease 0.3s;
+}
+
+.single_item img:hover {
+    background: #ffffff;
+    transition: all ease 0.3s;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+
+
+ul.projectTile li {
+    display: inline-block
+}
+
+.sectionPadding {
+    padding: 120px 0;
+}
+
+ul.projectTile {
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+ul.projectTile li {
+    color: #747481;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.singleProjectItem {
+    background-position: center center;
+    background-size: cover;
+    background-color: #ddd;
+    height: 300px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 8px #ddd;
+}
+
+.singleProjectItem::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	content: '';
+}
+
+
+.projectOvellay {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.singleProjectItem:hover .projectOvellay {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%)
+}
+
+.projectOvellay:after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.projectOvellay a {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.projectOvellay .siteLink {
+    right: auto;
+    left: 15px;
+}
+
+.projectOvellay h4 {
+    bottom: 15px;
+    color: #fff;
+    left: 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.projectOvellay a,
+.projectOvellay span,
+.projectTile li.active {
+    color: #00dedc;
+}
+.projectTile li .badgeActive{
+display: none;
+}
+.projectTile li.active .badgeActive{
+    display: inline-block;
+    right: -24%;
+    top: -62%;
+}
+.portTotal{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.projectOvellay span {
+    display: block;
+    font-size: 70%;
+    margin-top: 10px;
+}
+.projectOvellay span span{ 
+    font-size: 12px;
+    margin-top: 5px;
+    opacity:0.7;
+    color: #fff;
+}
+
+.select-cat {
+    color: #000 !important;
+}
+
+.popup-youtube {
+    position: relative;
+}
+
+.popup-youtube i {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 28px 29px;
+    color: #fff;
+    margin: -31px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+.projectBtn a {
+	border: solid 2px #dfdfdf;
+	background: none;
+	font-size: 13px;
+	padding: 9px 11px;
+	text-align: left;
+	min-width: 100px;
+	line-height: 17px;
+	-webkit-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	color: #000;
+	margin-top: 15px;
+	display: inline-block;
+
+}
+.projectBtn a:hover{
+	background: #000;
+	color: #fff;
+	border-color: #000;
+}
+.projectBtn a .fa{
+    padding-left: 10px
+}
+.singleProjectItem figure img{
+    width: 100%;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+.portTotal{
+    position: relative;
+    /* right: 0;*/
+    top: 10px; 
+}
+}

@@ -1,0 +1,27 @@
+.overFlow{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.headingClass{
+    font-size: 129px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    color: #999;
+}
+.bottomDiv{
+    background: #999;
+    height: 100vh;
+    position: absolute;
+    top: 44%;
+    left: 0;
+    width: 100%;
+    padding-top: 30px;
+   
+}
+.bottomDiv p{
+    color: #000;
+}

@@ -1,0 +1,161 @@
+
+.formInp {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactForm textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding: 20px 0 0 10px;
+    height: 119px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+
+.siteButton {
+    padding: 10px 50px;
+    font-size: 12px;
+    background: none;
+    border: 2px solid;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+.siteButton:hover {
+    background: #000;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.contactForm .siteButton {
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+
+}
+*/
+.sitebtn {
+    border: solid 2px #dfdfdf;
+    background: none;
+    font-size: 13px;
+    padding: 9px 11px;
+    text-align: left;
+    /*min-width: 100px;*/
+    line-height: 17px;
+    transition: all ease 0.3s;
+    color: #000;
+    border-radius: 0;
+}
+
+
+.sitebtn:focus {
+    border: solid 2px #000;
+}
+
+.sitebtn:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    transition: all ease 0.3s;
+}
+
+.sitebtn:hover:after {
+    color: #fff;
+}
+
+.sitebtn:focus {
+    border: solid 2px #dfdfdf;
+}
+
+
+.sitebtn .icon {
+   /* float: right;*/
+    padding: 0px 0px 0 10px;
+}
+
+
+/* arrow css3 animation */
+
+ @-webkit-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+    40% {
+        -webkit-transform: translateX(-10px);
+    }
+    60% {
+        -webkit-transform: translateX(-5px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -moz-transform: translateX(0);
+    }
+    40% {
+        -moz-transform: translateX(-10px);
+    }
+    60% {
+        -moz-transform: translateX(-5px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -o-transform: translateX(0);
+    }
+    40% {
+        -o-transform: translateX(-10px);
+    }
+    60% {
+        -o-transform: translateX(-5px);
+    }
+} 
+
+@keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(-10px);
+    }
+    60% {
+        transform: translateX(-5px);
+    }
+
+}
+
+.sitebtn .icon {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+
+@media (max-width: 768px) {
+   .contactForm{
+       margin-top: 10px;
+   }
+}
