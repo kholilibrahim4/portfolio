@@ -14,16 +14,16 @@ import Error404 from './components/pages/404/Error404';
 
 
 function App() {
-const [loading,setLoading]=useState(true)
-const loader = document.getElementById('loader')
-if(loader){
-    setTimeout(()=> {
-        loader.style.display='none';
-        setLoading(false)
-    }, 2000);
-}
+// const [loading,setLoading]=useState(true)
+// const loader = document.getElementById('loader')
+// if(loader){
+//     setTimeout(()=> {
+//         loader.style.display='none';
+//         setLoading(false)
+//     }, 2000);
+// }
   return (
-    !loading && (
+    // !loading && (
    <DataContextProviderFun>
     <Routes>
       <Route path='/' element={<HomePage />} />
@@ -34,7 +34,7 @@ if(loader){
       <Route path='/singleBlog' element={<SingleBlog />} />
     </Routes>
     </DataContextProviderFun>
-   ) 
+  //  ) 
   )
 }
 
