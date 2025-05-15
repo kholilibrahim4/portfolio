@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 import styles from './About.module.css'
 import AboutContent from './AboutContent'
 import AboutBottom from './AboutBottom'
-import Services from '../../services/Services'
+// import Services from '../../services/Services'
 
 
 export default function About() {
@@ -13,7 +13,7 @@ export default function About() {
       <div className={`${styles.about} ${styles.type1} padbot_120`}>
         <Container>
           <AboutContent />
-          <Services />
+          {/* <Services /> */}
 
         </Container>
 
