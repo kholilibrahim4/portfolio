@@ -4,7 +4,7 @@ import { Col, Row } from 'react-bootstrap'
 import InputField from './InputField'
 import TextareaField from './TextareaField'
 import Button from '../../../button/Button'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -70,32 +70,32 @@ export default function Form() {
 
 
             // emailjs ============
-            emailjs
-                .sendForm('service_iax1nsc', 'template_avme1ip', form.current, {
-                    publicKey: 'a7nGRREp1nYLVAeCL',
-                })
-                .then(
-                    () => {
-                        // console.log('SUCCESS!');
+            // emailjs
+            //     .sendForm('service_iax1nsc', 'template_avme1ip', form.current, {
+            //         publicKey: 'a7nGRREp1nYLVAeCL',
+            //     })
+            //     .then(
+            //         () => {
+            //             // console.log('SUCCESS!');
 
-                        // sweetalert2 ============
-                        Swal.fire({
-                            title: "Good job!",
-                            text: "Your message sent successfully!",
-                            icon: "success",
-                            showConfirmButton: false,
-                            timer: 3000
-                        });
-                    },
-                    (error) => {
-                        Swal.fire({
-                            icon: "error",
-                            title: "Oops...",
-                            text: "Email sent faild! please check all",
-                        });
-                        // console.log('FAILED...', error.text);
-                    },
-                );
+            //             // sweetalert2 ============
+            //             Swal.fire({
+            //                 title: "Good job!",
+            //                 text: "Your message sent successfully!",
+            //                 icon: "success",
+            //                 showConfirmButton: false,
+            //                 timer: 3000
+            //             });
+            //         },
+            //         (error) => {
+            //             Swal.fire({
+            //                 icon: "error",
+            //                 title: "Oops...",
+            //                 text: "Email sent faild! please check all",
+            //             });
+            //             // console.log('FAILED...', error.text);
+            //         },
+            //     );
 
 
 
