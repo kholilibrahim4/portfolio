@@ -1,0 +1,176 @@
+/*------------------------ 2 Home ------------------------*/
+
+.home {
+    width: 100%;
+    display: table;
+    height: 100vh;
+    position: relative;
+}
+
+.home {
+    background: url(../../../../../assets/img/home-bg.jpg) 50% 50% fixed;
+    background-size: cover;
+}
+
+.homeContent {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    /*height: 100vh;*/
+}
+
+.homeContent h1 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+
+.home:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.homeDown {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.homeDown:hover {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.homeDown:focus {
+    color: #fff;
+}
+
+.bounce {
+    float: left;
+    padding: 50px 74px 0;
+}
+
+.diagonal {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 1000;
+}
+.diagonal.homeLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: none;
+    z-index: 99;
+}
+
+.diagonal.homeRight {
+    position: absolute;
+    bottom: 0;
+    right: 0 !important;
+    background: none;
+    z-index: 99;
+    left: auto;
+}
+
+.diagonal.homeLeft,
+.diagonal.homeRight path {
+    fill: #f5f5f5;
+    stroke: #f5f5f5;
+    stroke-width: 4;
+}
+
+/* arrow css3 animation */
+
+@-webkit-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -moz-transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        -o-transform: translateY(0);
+    }
+    40% {
+        -o-transform: translateY(-30px);
+    }
+    60% {
+        -o-transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%,50%,80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+
+}
+
+.bounce {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+@media (max-width: 768px) {
+    .homeContent h1 {
+        font-size: 50px;
+
+    }
+
+    .bounce {
+        float: none;
+        padding: 50px 20px 20px;
+    }
+
+}

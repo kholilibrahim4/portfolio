@@ -1,0 +1,143 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'poppinsextralight';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+/* 
+  
+    --white-color:                  #ffffff;
+    --primary-color:                #13547a;
+    --secondary-color:              #80d0c7;
+    --section-bg-color:             #f0f8ff;
+    --custom-btn-bg-color:          #80d0c7;
+    --custom-btn-bg-hover-color:    #13547a;
+    --dark-color:                   #000000;
+    --p-color:                      #717275;
+    --border-color:                 #7fffd4;
+    --link-hover-color:             #13547a;
+  
+    --body-font-family:             'Open Sans', sans-serif;
+    --title-font-family:            'Montserrat', sans-serif;
+  
+    --h1-font-size:                 58px;
+    --h2-font-size:                 46px;
+    --h3-font-size:                 32px;
+    --h4-font-size:                 28px;
+    --h5-font-size:                 24px;
+    --h6-font-size:                 22px;
+    --p-font-size:                  20px;
+    --menu-font-size:               14px;
+    --btn-font-size:                18px;
+    --copyright-font-size:          16px;
+  
+    --border-radius-large:          100px;
+    --border-radius-medium:         20px;
+    --border-radius-small:          10px;
+  
+    --font-weight-normal:           400;
+    --font-weight-medium:           500;
+    --font-weight-semibold:         600;
+    --font-weight-bold:             700; */
+  }
+/* 
+ .navbar {
+    background-color: var(--secondary-color);
+} */
+
+@font-face {
+  font-family: 'poppinsextralight';
+  src: url('assets/fonts/poppins-extralight-webfont.woff2') format('woff2'),
+       url('assets/fonts/poppins-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+       url('assets/fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('assets/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+       url('assets/fonts/poppins-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}  
+
+
+a {
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+/* 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

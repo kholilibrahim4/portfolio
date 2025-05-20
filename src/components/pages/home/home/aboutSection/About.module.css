@@ -1,0 +1,98 @@
+/*------------------------ 3 About ------------------------*/
+
+.about {
+    padding-top: 90px;
+    position: relative;
+}
+.dgrayBg {
+    background: #f5f5f5;
+}
+.about.type1 .aboutImage {
+    padding-bottom: 70px;
+    background: #e8e8e8;
+}
+
+.about.type1 .aboutImage img:before {
+    background: #e4e4e4;
+}
+
+.about.type1 .aboutImage img {
+    width: 100%;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, .3);
+    margin-top: -15%;
+    margin-left: calc(15% - 15px);
+}
+
+.about.type1.vertiqal .aboutImage img {
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -15%;
+    margin-left: -15%;
+}
+
+
+
+.aboutImage img {
+    width: 100%;
+}
+.sectionTitle {
+    text-align: left;
+    padding: initial;
+}
+.sectionTitle h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about h2 {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.aboutText {
+    display: table;
+    height: 407px;
+}
+.aboutText p{
+    margin-bottom: 15px;
+}
+
+.diagonalGray {
+    height: 70px;
+}
+
+.diagonalGray {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: #fff;
+    float: left;
+    z-index: 100;
+    margin-top: 90px;
+}
+
+.diagonalGray path {
+    fill: #f5f5f5;
+}
+
+   
+@media (min-width: 992px) {
+    .mdOffset1 {
+        margin-left: 8.33333333%;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .about.type1 .aboutImage {
+        background: none;
+    }
+    .about.type1 .aboutImage img {
+        box-shadow: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+}
