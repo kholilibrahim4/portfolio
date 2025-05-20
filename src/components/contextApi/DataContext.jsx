@@ -11,7 +11,7 @@ export default function DataContextProviderFun({ children }) {
         heroText: ['creative', 'designer', 'awesome', 'trustable'],
         about: {
             title: 'About Me',
-            aboutImg: '/about.png',
+            aboutImg: 'about/about.jpg',
             desc: [
                 "Hi! I'm Md. Ibrahim Kholil, a passionate aspiring web designer with a strong interest in web programming. I’m currently focused on learning web design, exploring everything from react to more complex coding. I’m always excited to discover new techniques and stay updated on the latest trends in the tech world.",
                 "My hobbies include diving into online resources to improve my programming skills and experimenting with building websites. I enjoy the challenge of turning creative ideas into functional, user-friendly designs.",
