@@ -1,19 +1,13 @@
 
 import React, {useState,useContext, useEffect} from 'react'
 
-
 import styles from './HomeHero.module.css'
-
 import SocialMedia from '../../../../socialMedia/SocialMedia'
-
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAngleDown  } from '@fortawesome/free-solid-svg-icons'
-
-
 import {useTypewriter,Cursor } from 'react-simple-typewriter'
-
 import {DataContext} from '../../../../contextApi/DataContext'
+import { HashLink } from 'react-router-hash-link'
 
 
 export default function HomeHero() {
@@ -61,10 +55,10 @@ export default function HomeHero() {
                    <SocialMedia />
                     
                    
-                    <a className={`${styles.homeDown} ${styles.bounce}`} href="#about">
+                    <HashLink smooth className={`${styles.homeDown} ${styles.bounce}`} to="#about">
                      <FontAwesomeIcon icon={faAngleDown}/>
                          
-                     </a>
+                     </HashLink>
                     {/*<FontAwesomeIcon icon={faEnvelope}/>*/}
                 </div>
             </div>
