@@ -163,7 +163,7 @@ export default function DataContextProviderFun({ children }) {
                 {
                     categories: 'react',
                     portfolioImg: 'portfolios/img-29.jpg',
-                    title: 'Mediplus',
+                    title: 'Mediplus (Still workingm)',
                     tagline: 'Another react template practice',
                     hrefLink: '/',
                     workType: 'Work Type: ',

@@ -10,13 +10,10 @@ export default function Footer() {
     const {footer:{copyRight,createdBy}} = useContext(DataContext)
     
     return (
-        <footer>
-            <Container>
-                {/* social media here */}
-                
+        <footer className={styles.footer}>
+            <Container>                
                 <SocialMedia />
-                
-                
+
                 <p>
                     {copyRight}
                     <br />
