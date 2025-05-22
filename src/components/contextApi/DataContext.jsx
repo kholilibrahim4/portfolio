@@ -156,7 +156,7 @@ export default function DataContextProviderFun({ children }) {
                     portfolioImg: 'portfolios/img-30.jpg',
                     title: 'Topic',
                     tagline: 'First react template practice',
-                    hrefLink: '/',
+                    hrefLink: 'https://kholilibrahim4.github.io/topic/',
                     workType: 'Work Type: ',
                     // projectBgNumber: `${styles.projectBg6}`
                 },
@@ -165,7 +165,7 @@ export default function DataContextProviderFun({ children }) {
                     portfolioImg: 'portfolios/img-29.jpg',
                     title: 'Mediplus (Still working)',
                     tagline: 'Another react template practice',
-                    hrefLink: 'https://kholilibrahim4.github.io/topic/',
+                    hrefLink: 'https://kholilibrahim4.github.io/mediplus/',
                     workType: 'Work Type: ',
                     // projectBgNumber: `${styles.projectBg6}`
                 },
