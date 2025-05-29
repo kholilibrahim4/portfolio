@@ -1,0 +1,38 @@
+.homeBack {
+	background: #222;
+	color: #fff;
+	padding: 13px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+.homeBack ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.homeBack ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  padding-right: 17px;
+}
+.homeBack ul li:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  content: '';
+  background: #fff;
+  transform: skew(-25deg);
+}
+.homeBack ul li:last-child:after {
+  opacity: 0;
+}
+.homeBack ul li a {
+  color: #00dedc;
+}
+.homeBack ul li:hover > a {
+  opacity: .7
+}

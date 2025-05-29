@@ -1,0 +1,59 @@
+.workAreas {
+    width: 100%;
+    display: inline-block!important;
+}
+
+.workAreas .area .icon .faIcon {
+    font-size: 27px;
+    /*margin-left: 5px;*/
+}
+/* .workAreas .area .icon .faIcon {
+    /*display: inline-block;
+} */
+.workAreas .area .icon,
+.workAreas .area .text{
+    display: table-cell;
+}
+.workAreas .area .icon {
+    width: 17%;
+    /*float: left;*/
+    text-align: center;
+}
+
+.workAreas .area .text {
+    width: 83%;
+   /* float: left;*/
+}
+
+.workAreas .area .text h6 {
+    /* font-size: 15px; */
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.workAreas .area .text p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.item {
+	padding: 10px 0;
+}
+
+
+.item .text h6,
+.item .icon .faIcon{
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.item:hover .icon .faIcon,
+.item:hover .text h6{
+	color: #00dedc;
+    
+}
+.item:hover .text h6,
+.item:hover .icon .faIcon{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}

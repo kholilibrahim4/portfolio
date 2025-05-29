@@ -215,15 +215,6 @@ export default function DataContextProviderFun({ children }) {
                     workType: 'Work Type: ',
                     // projectBgNumber: `${styles.projectBg6}`
                 },
-                {
-                    categories: 'codepen react',
-                    portfolioImg: 'portfolios/img-7.jpg',
-                    title: 'React Dynamic Nested Dropdown Menu',
-                    tagline: 'Nested Dropdown Menu',
-                    hrefLink: 'https://codepen.io/mdnayan/pen/QwbwZaK?editors=0010',
-                    workType: 'Work Type: ',
-                    // projectBgNumber: `${styles.projectBg6}`
-                },
                 
             ],
         },
