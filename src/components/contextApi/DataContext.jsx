@@ -152,6 +152,15 @@ export default function DataContextProviderFun({ children }) {
                     // projectBgNumber: `${styles.projectBg6}`
                 },
                 {
+                    categories: 'html bootstrap',
+                    portfolioImg: 'portfolios/img-14.jpg',
+                    title: 'Rusty',
+                    tagline: 'practice bootstrap template',
+                    hrefLink: 'https://kholilibrahim4.github.io/practice/html/rusty/',
+                    workType: 'Work Type: ',
+                    // projectBgNumber: `${styles.projectBg6}`
+                },
+                {
                     categories: 'react',
                     portfolioImg: 'portfolios/img-30.jpg',
                     title: 'Topic',
