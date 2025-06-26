@@ -172,7 +172,7 @@ export default function DataContextProviderFun({ children }) {
                 {
                     categories: 'react',
                     portfolioImg: 'portfolios/img-29.jpg',
-                    title: 'Mediplus (Still working)',
+                    title: 'Mediplus',
                     tagline: 'Another react template practice',
                     hrefLink: 'https://kholilibrahim4.github.io/mediplus/',
                     workType: 'Work Type: ',
@@ -240,7 +240,7 @@ export default function DataContextProviderFun({ children }) {
             secTitle: 'Latest Works',
             blogItems: [
                 {
-                    title: 'Mediplus (Still working)',
+                    title: 'Mediplus',
                     blogImg: 'blogImg/blog-5.jpg',
                     descr: 'This was another React project of mine, which was much less difficult to do than my previous one, because I had mastered many things on my first one, but I am happy that I was able to solve all the problems that came up while doing this one.',
                     blogDate: "24 December, 2024",
